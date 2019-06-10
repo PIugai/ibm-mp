@@ -1,1 +1,13 @@
 /* pages/land.wxss */
+.t1 {
+  font-size: 40pt;
+}
+
+.btn {
+  position: center;
+}
+
+.btn-login {
+  width: 300rpx;
+  height: 300rpx;
+}

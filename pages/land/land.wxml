@@ -1,2 +1,34 @@
 <!--pages/land.wxml-->
-<text>pages/land.wxml</text>
+<view>
+  <text class='t1'>Press</text>
+</view>
+<view>
+  <text class='t1'>To</text>
+</view>
+<view>
+  <text class='t1'>Start</text>
+</view>
+<view class='container'>
+  <view class='btn'>
+    <image 
+      class='btn-login'
+      bindtap='bindMap' 
+      src='/images/logo.png'
+      open-type='getUserInfo'
+      bindgetuserinfo='userInfoHandler'
+      style='image:url(images/logo.png); opacity:100'>
+    </image> 
+  </view>
+</view>
+  <view class='sos'>
+    <text>S.O.S.</text>
+  </view>
+  <view class='powered'>
+    <text>powered by</text>
+  </view>
+  <view>
+    <image 
+      class='ibm'
+      src='/images/ibm.png'
+      ></image>
+  </view>
