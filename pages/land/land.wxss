@@ -57,9 +57,9 @@ page {
 
 .sos {
   position: absolute;
-  width: 273rpx;
+  width: 255rpx;
   height: 310rpx;
-  left: 61vw;
+  left: 63vw;
   top: 77vh;
   font-family: Post No Bills Colombo Light;
   font-style: normal;
