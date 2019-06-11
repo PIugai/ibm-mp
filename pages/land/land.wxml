@@ -1,6 +1,7 @@
 <!--pages/land.wxml-->
-<view class='presstoenter'>
-  <view>
+<view>
+  <image class='presstoenter' src='/images/presstoenter.png'></image>
+  <!-- <view>
     <text class='t1'>Press</text>
   </view>
   <view>
@@ -8,7 +9,7 @@
   </view>
   <view>
     <text class='t1'>Enter</text>
-  </view>
+  </view> -->
 </view>
 
 <view class='container'>
@@ -34,8 +35,10 @@
     <video binderror="videoErrorCallback" id="myVideo" src="https://xxx.mp4" objectFit='fill' autoplay='true' loop='true' enable-progress-gesture="{{false}}"  show-play-btn="{{false}}" show-fullscreen-btn="{{false}}" controls="{{false}}">
     </video>
 </view> -->
-
-<view class='sos'>
+<view>
+  <image class='sos' src='/images/sos.png'></image>
+</view>
+<!-- <view class='sos'>
   <text>S.O.S.</text>
 </view>
 <view class='powered'>
@@ -46,4 +49,4 @@
     class='ibm'
     src='/images/ibm.png'
     ></image>
-</view>
+</view> -->

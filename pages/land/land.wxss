@@ -1,13 +1,18 @@
 /* pages/land.wxss */
+
+page {
+  background: #1c819e;
+}
+
 .t1 {
   font-size: 40pt;
 }
 
 .presstoenter {
   position: absolute;
-  width: 199px;
-  height: 107px;
-  left: 28px;
+  width: 420rpx;
+  height: 520rpx;
+  left: 2vw;
   top: 13vh;
 
   font-family: Sansation;
@@ -52,19 +57,20 @@
 
 .sos {
   position: absolute;
-  width: 99px;
-  height: 60px;
-  left: 63vw;
-  top: 81vh;
+  width: 273rpx;
+  height: 310rpx;
+  left: 61vw;
+  top: 77vh;
   font-family: Post No Bills Colombo Light;
   font-style: normal;
   font-weight: 300;
   font-size: 50px;
   line-height: 75px;
   color: rgb(0, 0, 0);
+
 }
 
-.powered {
+/* .powered {
   position: absolute;
   width: 104px;
   height: 30px;
@@ -87,4 +93,4 @@
   height: 124px;
   left: 61vw;
   top: 87vh;
-}
+} */
