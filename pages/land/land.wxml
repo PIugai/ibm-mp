@@ -1,34 +1,49 @@
 <!--pages/land.wxml-->
-<view>
-  <text class='t1'>Press</text>
+<view class='presstoenter'>
+  <view>
+    <text class='t1'>Press</text>
+  </view>
+  <view>
+    <text class='t1'>To</text>
+  </view>
+  <view>
+    <text class='t1'>Enter</text>
+  </view>
 </view>
-<view>
-  <text class='t1'>To</text>
-</view>
-<view>
-  <text class='t1'>Start</text>
-</view>
+
 <view class='container'>
   <view class='btn'>
     <image 
-      class='btn-login'
+      class='logo'
       bindtap='bindMap' 
       src='/images/logo.png'
       open-type='getUserInfo'
-      bindgetuserinfo='userInfoHandler'
-      style='image:url(images/logo.png); opacity:100'>
+      bindgetuserinfo='userInfoHandler'>
     </image> 
+    <button
+      class='mask-btn'
+      bindtap='bindMap' 
+      open-type='getUserInfo'
+      bindgetuserinfo='userInfoHandler'
+      style='opacity:100; z-index: 1'>
+    </button>
   </view>
 </view>
-  <view class='sos'>
-    <text>S.O.S.</text>
-  </view>
-  <view class='powered'>
-    <text>powered by</text>
-  </view>
-  <view>
-    <image 
-      class='ibm'
-      src='/images/ibm.png'
-      ></image>
-  </view>
+
+<!-- <view class='background'>
+    <video binderror="videoErrorCallback" id="myVideo" src="https://xxx.mp4" objectFit='fill' autoplay='true' loop='true' enable-progress-gesture="{{false}}"  show-play-btn="{{false}}" show-fullscreen-btn="{{false}}" controls="{{false}}">
+    </video>
+</view> -->
+
+<view class='sos'>
+  <text>S.O.S.</text>
+</view>
+<view class='powered'>
+  <text>powered by</text>
+</view>
+<view>
+  <image 
+    class='ibm'
+    src='/images/ibm.png'
+    ></image>
+</view>
