@@ -1,7 +1,7 @@
 /* pages/land.wxss */
 
 page {
-  background: #1c819e;
+  background-image: url("http://lc-f0mqpbjn.cn-n1.lcfile.com/9b96b3060710a21dc925/1753895089.jpg");
 }
 
 .t1 {
@@ -12,7 +12,7 @@ page {
   position: absolute;
   width: 420rpx;
   height: 520rpx;
-  left: 2vw;
+  left:-1vw;
   top: 13vh;
 
   font-family: Sansation;

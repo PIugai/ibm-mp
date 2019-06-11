@@ -39,12 +39,26 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "List",
-					"pathName": "pages/llist/list",
+					"pathName": "pages/list/list",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Card",
+					"pathName": "pages/card/card",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Map",
+					"pathName": "pages/map/map",
 					"scene": null
 				}
 			]

@@ -15,15 +15,16 @@
 <view class='container'>
   <view class='btn'>
     <image 
-      class='logo'
-      bindtap='bindMap' 
+      class='logo' 
       src='/images/logo.png'
+      bindtap='goToListPage' 
       open-type='getUserInfo'
       bindgetuserinfo='userInfoHandler'>
     </image> 
     <button
       class='mask-btn'
-      bindtap='bindMap' 
+      wx:if="{{!hasUserInfo && canIUse}}" 
+      bindtap='goToListPage' 
       open-type='getUserInfo'
       bindgetuserinfo='userInfoHandler'
       style='opacity:100; z-index: 1'>
