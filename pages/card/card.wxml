@@ -1,0 +1,11 @@
+<!--pages/card/card.wxml-->
+<view class="navbar">
+  <nav-bar profilePic="/images/logo.png"/>
+</view>
+
+<view class='marquee'>
+  <image src='/images/speaker.png'></image>
+  <text>2015/07/11 23:34 Earthquack hit</text>
+</view>
+
+<text>THIS IS CARDD page</text>

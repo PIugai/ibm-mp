@@ -1,0 +1,21 @@
+<!--pages/list/list.wxml-->
+<view class="navbar">
+  <nav-bar profilePic="/images/logo.png"/>
+</view>
+
+<view class='marquee'>
+  <image src='/images/speaker.png'></image>
+  <text>2015/07/11 23:34 Earthquack hit</text>
+</view>
+
+<text>THIS IS LIST page</text>
+
+<view class="slider-toggle left">
+    <span class="label">This is the default option.</span>
+    <span class="slider">
+        <span class="toggle">
+            <span class="grip"></span>
+        </span>
+    </span>
+    <span class="label">Alternative...</span>
+</view>

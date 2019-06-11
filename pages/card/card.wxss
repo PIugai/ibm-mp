@@ -1,0 +1,23 @@
+/* pages/card/card.wxss */
+
+page {
+  background-image: url("http://lc-f0mqpbjn.cn-n1.lcfile.com/9b96b3060710a21dc925/1753895089.jpg");
+}
+
+.marquee image {
+  width:40px;
+  height:40px;
+}
+
+.marquee text {
+  text-align: center;
+  align-items:center;
+  justify-content:center;
+  line-height:100rpx;
+  margin-left:4vw;
+  font-size: 15pt;
+}
+
+.marquee {
+  background-color: rgba(255, 255, 255, 0.5);
+}

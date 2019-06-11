@@ -1,0 +1,96 @@
+/* pages/land.wxss */
+
+page {
+  background-image: url("http://lc-f0mqpbjn.cn-n1.lcfile.com/9b96b3060710a21dc925/1753895089.jpg");
+}
+
+.t1 {
+  font-size: 40pt;
+}
+
+.presstoenter {
+  position: absolute;
+  width: 420rpx;
+  height: 520rpx;
+  left:-1vw;
+  top: 13vh;
+
+  font-family: Sansation;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 61px;
+  line-height: 68px;
+
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  padding: 0 0;
+}
+
+.mask-btn {
+  /* margin-left: 168rpx; */
+  position: absolute;
+  z-index: 2;
+  width: 380rpx;
+  height: 380rpx;
+  top: 50%;
+  left: 27vw;
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+  border-radius: 100px
+}
+
+.logo {
+  position: absolute;
+  z-index: 1;
+  width: 380rpx;
+  height: 380rpx;
+  /* display: block; */
+  top: 50%;
+  left: 27vw;
+  opacity: 1;
+  display:flex;
+  /* justify-content:center;
+  align-items:center; */
+}
+
+.sos {
+  position: absolute;
+  width: 255rpx;
+  height: 310rpx;
+  left: 63vw;
+  top: 77vh;
+  font-family: Post No Bills Colombo Light;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 75px;
+  color: rgb(0, 0, 0);
+
+}
+
+/* .powered {
+  position: absolute;
+  width: 104px;
+  height: 30px;
+  left: 64vw;
+  top: 88vh;
+
+  font-family: Sahitya;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 23px;
+
+  color: rgb(0, 0, 0);
+
+}
+
+.ibm {
+  position: absolute;
+  width: 143px;
+  height: 124px;
+  left: 61vw;
+  top: 87vh;
+} */

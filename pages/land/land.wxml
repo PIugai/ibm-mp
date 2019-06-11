@@ -1,0 +1,53 @@
+<!--pages/land.wxml-->
+<view>
+  <image class='presstoenter' src='/images/presstoenter.png'></image>
+  <!-- <view>
+    <text class='t1'>Press</text>
+  </view>
+  <view>
+    <text class='t1'>To</text>
+  </view>
+  <view>
+    <text class='t1'>Enter</text>
+  </view> -->
+</view>
+
+<view class='container'>
+  <view class='btn'>
+    <image 
+      class='logo' 
+      src='/images/logo.png'
+      bindtap='goToListPage' 
+      open-type='getUserInfo'
+      bindgetuserinfo='userInfoHandler'>
+    </image> 
+    <button
+      class='mask-btn'
+      wx:if="{{!hasUserInfo && canIUse}}" 
+      bindtap='goToListPage' 
+      open-type='getUserInfo'
+      bindgetuserinfo='userInfoHandler'
+      style='opacity:100; z-index: 1'>
+    </button>
+  </view>
+</view>
+
+<!-- <view class='background'>
+    <video binderror="videoErrorCallback" id="myVideo" src="https://xxx.mp4" objectFit='fill' autoplay='true' loop='true' enable-progress-gesture="{{false}}"  show-play-btn="{{false}}" show-fullscreen-btn="{{false}}" controls="{{false}}">
+    </video>
+</view> -->
+<view>
+  <image class='sos' src='/images/sos.png'></image>
+</view>
+<!-- <view class='sos'>
+  <text>S.O.S.</text>
+</view>
+<view class='powered'>
+  <text>powered by</text>
+</view>
+<view>
+  <image 
+    class='ibm'
+    src='/images/ibm.png'
+    ></image>
+</view> -->
